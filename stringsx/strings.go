@@ -4,6 +4,6 @@ import (
     "fmt"
 )
 
-func Hello(name string) string{
+func Hello(name string) string, error{
     return fmt.Sprintf("Hello, %s", name), nil
 }
